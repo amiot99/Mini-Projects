@@ -1,4 +1,4 @@
-## Step 1 - User & Permissions Management
+## Part 1 - User & Permissions Management
 
 ### Creating a New User
 **Goal:** Create a new user with a home directory.  

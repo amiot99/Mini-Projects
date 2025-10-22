@@ -1,4 +1,4 @@
-# Part 3 - Service Management (Nginx)
+# Part 2 - Service Management (Nginx)
 
 ## Goal
 Learn how Linux manages long-running background processes (daemons) by installing, starting, enabling, and verifying a real service.
