@@ -1,0 +1,4 @@
+# ignore all generated snapshots
+monitoring_lab/observations/snapshot_*.txt
+# keep one example if you want:
+!monitoring_lab/observations/snapshot_example.txt
