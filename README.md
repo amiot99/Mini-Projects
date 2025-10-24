@@ -22,8 +22,8 @@ In this section, I applied what I learned by building a **Bash-based system moni
 **Files**
 | File | Description |
 |------|--------------|
-| [monitoring_lab/system_report.sh](monitoring_lab/system_report.sh) | Bash script that collects system metrics and outputs timestamped reports |
-| [monitoring_lab/basic_report.txt](monitoring_lab/basic_report.txt) | Example snapshot output generated during early testing |
+| [monitoring_lab/system_report.sh](./monitoring_lab/system_report.sh) | Bash script that collects system metrics and outputs timestamped reports |
+| [monitoring_lab/basic_report.txt](./monitoring_lab/basic_report.txt) | Example snapshot output generated during early testing |
 | .gitignore | Prevents hundreds of snapshot logs from being committed |
 
 **Automation Example**
