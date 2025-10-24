@@ -1,0 +1,51 @@
+ System Snapshot
+Thu Oct 23 23:08:15 CDT 2025
+
+ Uptime 
+ 23:08:15 up  2:00,  1 user,  load average: 0.02, 0.01, 0.00
+
+ Who 
+aamiot   pts/1        2025-10-23 21:17
+
+ Memory 
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       744Mi        14Gi       3.2Mi       297Mi        14Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+ Disk 
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.8G     0  7.8G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            7.8G  4.0K  7.8G   1% /mnt/wsl
+drivers         931G  714G  218G  77% /usr/lib/wsl/drivers
+/dev/sdc       1007G  3.1G  953G   1% /
+none            7.8G   80K  7.8G   1% /mnt/wslg
+none            7.8G     0  7.8G   0% /usr/lib/wsl/lib
+rootfs          7.8G  2.4M  7.8G   1% /init
+none            7.8G  552K  7.8G   1% /run
+none            7.8G     0  7.8G   0% /run/lock
+none            7.8G     0  7.8G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            7.8G   76K  7.8G   1% /mnt/wslg/versions.txt
+none            7.8G   76K  7.8G   1% /mnt/wslg/doc
+C:\             931G  714G  218G  77% /mnt/c
+D:\             699G  548G  151G  79% /mnt/d
+E:\             466G  409G   58G  88% /mnt/e
+F:\             350M  263M   88M  76% /mnt/f
+G:\             932G  900G   33G  97% /mnt/g
+H:\             200M   48M  153M  24% /mnt/h
+I:\             233G  191G   42G  82% /mnt/i
+J:\             466G  227G  239G  49% /mnt/j
+tmpfs           1.6G   16K  1.6G   1% /run/user/1000
+
+ Network Ports 
+Netid State  Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0          127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0       127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0      10.255.255.254:53        0.0.0.0:*          
+udp   UNCONN 0      0           127.0.0.1:323       0.0.0.0:*          
+udp   UNCONN 0      0               [::1]:323          [::]:*          
+tcp   LISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      511           0.0.0.0:80        0.0.0.0:*          
+tcp   LISTEN 0      1000   10.255.255.254:53        0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      511              [::]:80           [::]:*          
