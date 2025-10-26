@@ -1,0 +1,21 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         229  0.0  0.1 107032 22280 ?        Ssl  01:19   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          55  0.0  0.1  66884 19756 ?        S<s  01:19   0:01 /usr/lib/systemd/systemd-journald
+root         165  0.0  0.0 1756096 13780 ?       Ssl  01:19   0:00 /usr/libexec/wsl-pro-service -vv
+root           1  0.0  0.0  21736 13148 ?        Ss   01:19   0:00 /sbin/init
+
+top - 03:10:01 up  1:50,  1 user,  load average: 0.08, 0.02, 0.00
+Tasks:  57 total,   1 running,  56 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  15963.5 total,  15168.0 free,    780.9 used,    280.9 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.  15182.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21736  13148   9632 S   0.0   0.1   0:00.58 systemd
+      2 root      20   0    2776   1920   1796 S   0.0   0.0   0:00.00 init-sy+
+     13 root      20   0    2776    132    132 S   0.0   0.0   0:00.00 init
+     55 root      19  -1   66884  19756  18516 S   0.0   0.1   0:01.53 systemd+
+     84 root      20   0   23980   5932   4784 S   0.0   0.0   0:00.08 systemd+
+    140 systemd+  20   0   21456  11712   9520 S   0.0   0.1   0:00.10 systemd+
+    141 systemd+  20   0   91024   6540   5684 S   0.0   0.0   0:00.16 systemd+
+    148 message+  20   0    9624   5228   4540 S   0.0   0.0   0:00.17 dbus-da+
