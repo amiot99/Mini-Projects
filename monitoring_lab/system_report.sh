@@ -4,7 +4,7 @@ set -euo pipefail
 
 #1. Where to save  
 
-SNAP_DIR="/home/aamiot/projects/project-1-system-admin/monitoring_lab/observations"
+SNAP_DIR="/observations"
 mkdir -p "$SNAP_DIR"
 
 #2. Timestamped file 
